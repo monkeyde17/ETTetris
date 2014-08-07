@@ -1,0 +1,1 @@
+keytool -genkey -v -keystore tetris.keystore -alias tetris -keyalg RSA -keysize 2048 -validity 500000

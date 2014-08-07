@@ -1,7 +1,7 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
 
-USING_NS_CC;
+#include "ETCommon.h"
+#include "ETLoadingScene.h"
 
 AppDelegate::AppDelegate() {
 
@@ -15,22 +15,27 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // initialize director
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
-    if(!glview) {
-        glview = GLView::create("My Game");
+
+    if(!glview) 
+    {
+        glview = GLView::createWithRect(APPNAME, Rect(0, 0, DWIDTH / 2, DHEIGHT / 2));
         director->setOpenGLView(glview);
     }
 
-    // turn on display FPS
-    director->setDisplayStats(true);
-
-    // set FPS. the default value is 1.0/60 if you don't call this
+    director->setDisplayStats(ETDEBUG);
     director->setAnimationInterval(1.0 / 60);
+    if (WWIDTH * DHEIGHT > WHEIGHT * DWIDTH) 
+    {
+        glview->setDesignResolutionSize(DWIDTH, DHEIGHT, ResolutionPolicy::FIXED_HEIGHT);
+    }
+    else 
+    {
+        glview->setDesignResolutionSize(DWIDTH, DHEIGHT, ResolutionPolicy::FIXED_WIDTH);
+    }
 
-    // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
-
-    // run
+    auto scene = ETLoadingScene::create();
     director->runWithScene(scene);
+    scene->loading();    
 
     return true;
 }

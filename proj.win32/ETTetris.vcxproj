@@ -134,12 +134,28 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\ETBgLayer.cpp" />
+    <ClCompile Include="..\Classes\ETDictionary.cpp" />
+    <ClCompile Include="..\Classes\ETEncrypt.cpp" />
+    <ClCompile Include="..\Classes\ETFgLayer.cpp" />
+    <ClCompile Include="..\Classes\ETLoadingScene.cpp" />
+    <ClCompile Include="..\Classes\ETMutiMenu.cpp" />
+    <ClCompile Include="..\Classes\TSceneBase.cpp" />
+    <ClCompile Include="..\Classes\TSceneMain.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
-    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\ETBgLayer.h" />
+    <ClInclude Include="..\Classes\ETCommon.h" />
+    <ClInclude Include="..\Classes\ETDictionary.h" />
+    <ClInclude Include="..\Classes\ETEncrypt.h" />
+    <ClInclude Include="..\Classes\ETFgLayer.h" />
+    <ClInclude Include="..\Classes\ETLoadingScene.h" />
+    <ClInclude Include="..\Classes\ETMutiMenu.h" />
+    <ClInclude Include="..\Classes\ETResouce.h" />
+    <ClInclude Include="..\Classes\TSceneBase.h" />
+    <ClInclude Include="..\Classes\TSceneMain.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

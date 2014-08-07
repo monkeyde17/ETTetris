@@ -10,6 +10,9 @@
     <Filter Include="resource">
       <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\ET">
+      <UniqueIdentifier>{85951425-2d70-40c1-92a5-e051e12d18ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,8 +21,29 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+    <ClCompile Include="..\Classes\TSceneBase.cpp">
       <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TSceneMain.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ETBgLayer.cpp">
+      <Filter>Classes\ET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ETDictionary.cpp">
+      <Filter>Classes\ET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ETEncrypt.cpp">
+      <Filter>Classes\ET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ETFgLayer.cpp">
+      <Filter>Classes\ET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ETLoadingScene.cpp">
+      <Filter>Classes\ET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ETMutiMenu.cpp">
+      <Filter>Classes\ET</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,7 +53,34 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
+    <ClInclude Include="..\Classes\ETResouce.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TSceneBase.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TSceneMain.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ETBgLayer.h">
+      <Filter>Classes\ET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ETDictionary.h">
+      <Filter>Classes\ET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ETEncrypt.h">
+      <Filter>Classes\ET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ETFgLayer.h">
+      <Filter>Classes\ET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ETLoadingScene.h">
+      <Filter>Classes\ET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ETMutiMenu.h">
+      <Filter>Classes\ET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ETCommon.h">
       <Filter>Classes</Filter>
     </ClInclude>
   </ItemGroup>
