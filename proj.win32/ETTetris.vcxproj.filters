@@ -13,18 +13,18 @@
     <Filter Include="Classes\ET">
       <UniqueIdentifier>{85951425-2d70-40c1-92a5-e051e12d18ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{67bf68fe-35ac-4df5-b8bd-fa253cd77d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Core">
+      <UniqueIdentifier>{ef24f082-942b-489e-b542-de93a10b796f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>win32</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\TSceneBase.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\TSceneMain.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\ETBgLayer.cpp">
@@ -45,6 +45,18 @@
     <ClCompile Include="..\Classes\ETMutiMenu.cpp">
       <Filter>Classes\ET</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\TSceneBase.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TSceneMain.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TGameControl.cpp">
+      <Filter>Classes\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TGameControlTetris.cpp">
+      <Filter>Classes\Core</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -54,12 +66,6 @@
       <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ETResouce.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\TSceneBase.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\TSceneMain.h">
       <Filter>Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\ETBgLayer.h">
@@ -82,6 +88,18 @@
     </ClInclude>
     <ClInclude Include="..\Classes\ETCommon.h">
       <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TSceneMain.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TSceneBase.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TGameControl.h">
+      <Filter>Classes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TGameControlTetris.h">
+      <Filter>Classes\Core</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

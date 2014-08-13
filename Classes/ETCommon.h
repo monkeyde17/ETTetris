@@ -107,4 +107,6 @@ public:
 };
 /******ET Templete End******/
 
+typedef unsigned char uchar;
+
 #endif

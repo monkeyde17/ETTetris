@@ -12,7 +12,14 @@ LOCAL_MODULE_FILENAME := libcocos2dcpp
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
-                   ../../Classes/HelloWorldScene.cpp
+                   ../../Classes/ETBgLayer.cpp \
+                   ../../Classes/ETDictionary.cpp \
+                   ../../Classes/ETEncrypt.cpp \
+                   ../../Classes/ETFgLayer.cpp \
+                   ../../Classes/ETLoadingScene.cpp \
+                   ../../Classes/ETMutiMenu.cpp \
+                   ../../Classes/TSceneBase.cpp \
+                   ../../Classes/TSceneMain.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 

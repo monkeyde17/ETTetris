@@ -140,6 +140,8 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClCompile Include="..\Classes\ETFgLayer.cpp" />
     <ClCompile Include="..\Classes\ETLoadingScene.cpp" />
     <ClCompile Include="..\Classes\ETMutiMenu.cpp" />
+    <ClCompile Include="..\Classes\TGameControl.cpp" />
+    <ClCompile Include="..\Classes\TGameControlTetris.cpp" />
     <ClCompile Include="..\Classes\TSceneBase.cpp" />
     <ClCompile Include="..\Classes\TSceneMain.cpp" />
     <ClCompile Include="main.cpp" />
@@ -154,6 +156,8 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClInclude Include="..\Classes\ETLoadingScene.h" />
     <ClInclude Include="..\Classes\ETMutiMenu.h" />
     <ClInclude Include="..\Classes\ETResouce.h" />
+    <ClInclude Include="..\Classes\TGameControl.h" />
+    <ClInclude Include="..\Classes\TGameControlTetris.h" />
     <ClInclude Include="..\Classes\TSceneBase.h" />
     <ClInclude Include="..\Classes\TSceneMain.h" />
     <ClInclude Include="main.h" />

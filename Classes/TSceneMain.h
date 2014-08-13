@@ -2,6 +2,7 @@
 #define __T_SCENE_MAIN_H__
 
 #include "TSceneBase.h"
+#include "TGameControlTetris.h"
 
 class TSceneMain : public TSceneBase
 {
