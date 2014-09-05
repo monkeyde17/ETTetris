@@ -1,5 +1,5 @@
-ETTetris
-========
+et-tetris
+=========
 
 powered by cocos2dx 3.2
 
